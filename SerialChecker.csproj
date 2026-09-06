@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>SerialChecker</AssemblyName>
+    <RootNamespace>SerialChecker</RootNamespace>
+
+    <!-- App icon shown on the exe file and in the console window -->
+    <ApplicationIcon>exeicon.ico</ApplicationIcon>
+
+    <!-- Embeds app.manifest so Windows prompts for admin (UAC) on launch -->
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+
+    <!-- Bundle everything (including the .NET runtime) into ONE exe file -->
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
