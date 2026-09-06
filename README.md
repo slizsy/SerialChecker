@@ -24,5 +24,3 @@ C# and .NET 8.
 - Windows 10/11
 - .NET 8 SDK (for building)
 
-## Building
-Open `HwidChecker.csproj` in Visual Studio and Publish, or run:
