@@ -87,7 +87,7 @@ namespace HwidChecker
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.WriteLine("Press any key to exit...");
             Console.ResetColor();
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
