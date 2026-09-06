@@ -85,9 +85,13 @@ namespace HwidChecker
             ConsoleHelper.PrintInfo($"Scan complete in {stopwatch.Elapsed.TotalSeconds:0.0}s.");
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine("Press any key to exit...");
+            Console.WriteLine("Press Enter to exit...");
             Console.ResetColor();
-            Console.ReadLine();
+            ConsoleKey key;
+            do
+            {
+                key = Console.ReadKey(true).Key; // don't show typed characters, Cleaner ;)
+            } while (key != ConsoleKey.Enter);
         }
     }
 }
