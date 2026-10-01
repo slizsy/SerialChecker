@@ -5,7 +5,7 @@ A Windows console tool that pulls together key hardware and network identifiers 
 
 
 
-<img width="400" align="right" alt="SerialChecker screenshot" src="https://github.com/user-attachments/assets/f0e8f991-d81a-4813-af67-19f0ca8d06ff" />
+
 
 ## What it shows
 - **Disks** — model, serial number, size
@@ -22,6 +22,8 @@ A Windows console tool that pulls together key hardware and network identifiers 
 - **Windows Version** — OS name, version, build number
 - **Display** — resolution and refresh rate
 - **Local & Public IP**
+- 
+<img width="400" align="right" alt="SerialChecker screenshot" src="https://github.com/user-attachments/assets/f0e8f991-d81a-4813-af67-19f0ca8d06ff" />
 
 <br clear="right"/>
 
