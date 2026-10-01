@@ -2,6 +2,9 @@
 
 A Windows console tool that pulls together key hardware and network identifiers from your own PC in one clean, readable scan — built with C# and .NET 8.
 
+
+
+
 <img width="400" align="right" alt="SerialChecker screenshot" src="https://github.com/user-attachments/assets/f0e8f991-d81a-4813-af67-19f0ca8d06ff" />
 
 ## What it shows
